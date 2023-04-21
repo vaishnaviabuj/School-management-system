@@ -1,0 +1,122 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.containerClass {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(168, 161, 163); */
+  padding: 8px;
+}
+.closedMenu {
+  position: absolute;
+  left: 100px;
+  cursor: pointer;
+  color: white;
+}
+@media screen and (max-width:510px) {
+    .closedMenu{
+        left: 10px;
+    }
+}
+.menu {
+  position: absolute;
+  cursor: pointer;
+  left: 250px;
+  color: white;
+}
+@media screen and (max-width:510px) {
+    .menu{
+        left: 10px;
+    }
+}
+.searchBarPanel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  color: white;
+  right: 220px;
+}
+@media screen and (max-width: 510px) {
+  .searchBarPanel {
+   display: none;
+  }
+}
+.searchBar {
+  width: 238px;
+  padding: 7px;
+  right: 360px;
+  border-radius: 10px;
+  border: 1px solid grey;
+  margin-right: 30px;
+  color: white;
+}
+@media screen and (max-width: 510px) {
+    .searchBar {
+    
+      height: 30px;
+    }
+  }
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  color: black;
+}
+.styleProfile {
+  position: absolute;
+  right: 60px;
+  color: white;
+}
+@media screen and (max-width: 510px) {
+  .styleProfile {
+    right: 13px;
+  }
+}
+.whatsApp {
+  position: absolute;
+  right: 110px;
+  color: white;
+}
+@media screen and (max-width: 510px) {
+  .whatsApp {
+    right: 46px;
+  }
+}
+.task {
+  position: absolute;
+  right: 160px;
+  color: white;
+}
+@media screen and (max-width: 510px) {
+    .task {
+      right: 80px;
+    }
+  }
+.cal {
+  position: absolute;
+  right: 210px;
+  color: white;
+}
+@media screen and (max-width: 510px) {
+    .cal {
+      right: 115px;
+    }
+  }
+.flag-style {
+  position: absolute;
+  right: 260px;
+  width: 27px;
+}
+@media screen and (max-width: 510px) {
+    .flag-style {
+      right: 152px;
+    }
+  }
+.layouting{
+  display: flex;
+}
